@@ -1,7 +1,15 @@
 <template>
   <div class="about">
     <h1>Who am i ?</h1>
-
+    <p>Hello there !</p>
+    <p>
+      I'm Axelle Adamkiewicz and i'm a web developer. I am fascinated by new
+      tech and this portfolio was made to show you what i'm able to do.
+    </p>
+    <p>
+      <i>Fun fact</i>, this portfolio was made after only two month of learning
+      vue.js.
+    </p>
     <h4>Parcours</h4>
     <h4>Passions</h4>
     <h5>Travels</h5>
@@ -46,3 +54,8 @@
     </p>
   </div>
 </template>
+<style lang="scss" scoped>
+h1 {
+  font-family: limelight;
+}
+</style>

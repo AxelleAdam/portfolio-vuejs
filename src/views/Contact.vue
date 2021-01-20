@@ -4,3 +4,10 @@
     <h3>Contacting me is pretty easy.</h3>
   </div>
 </template>
+<script>
+// @ is an alias to /src
+
+export default {
+  name: "contact",
+};
+</script>
