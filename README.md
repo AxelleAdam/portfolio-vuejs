@@ -8,6 +8,8 @@ I did my portfolio mostly in English because this is, for me, the most revelant 
 
 My portfolio is **responsive**.
 
+There is on top-right an accessibility menu that you can use as you want.
+
 # in the future of my portfolio
 
 - French version.

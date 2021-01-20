@@ -2,7 +2,9 @@
   <v-app>
     <v-app-bar app class="navbar" flat>
       <div class="justify-space-between d-flex align-center navbar2">
-        <div class="bear"><v-img src="./store/bear.svg" /></div>
+        <div class="bear hide-mobile desktop-only">
+          <v-img src="./store/bear.svg" />
+        </div>
         <router-link to="/" class="home">Home</router-link>
         <router-link to="/project">My projects</router-link>
         <router-link to="/about">About me</router-link>
@@ -21,12 +23,12 @@
       <v-card
         flat
         tile
-        class="grey-1 black--text text-center"
-        style="background:#c2bfc0"
+        class="text-center"
+        style="background:#c2bfc0;color:#0c0c0c"
       >
         <v-card-text> </v-card-text>
 
-        <v-card-text class="white--text pt-0">
+        <v-card-text class="black--text pt-0">
           This portfolio was made with Vue.js and Vuetify. This portfolio has
           seen the light of the day on 01.20.2021, after two months learning
           vue.js. I personnaly thank everyone clicking here and seeing the
@@ -71,8 +73,9 @@ body {
     font-size: 100%;
     font-family: "vt323", sans-serif;
     margin-right: 5%;
+    text-align: center;
     a:hover {
-      color: rgb(61, 61, 218);
+      color: #fdfdfd !important;
     }
   }
   .bear {

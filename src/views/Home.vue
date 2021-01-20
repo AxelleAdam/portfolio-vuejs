@@ -21,4 +21,9 @@ export default {
   text-align: center;
   height: 85vh;
 }
+h1 {
+  font-family: "limelight", sans-serif;
+  color: #dc143c;
+  text-shadow: 0 1px 0 #252525;
+}
 </style>

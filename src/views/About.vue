@@ -7,8 +7,9 @@
       tech and this portfolio was made to show you what i'm able to do.
     </p>
     <p>
-      <i>Fun fact</i>, this portfolio was made after only two month of learning
-      vue.js.
+      If i had to describe myself, i would refer to my picto, the bear. I'm
+      introvert, I love being alone but i also can be very friendly with people
+      who are truly kind, I have an unexpected strength.
     </p>
     <h4>Parcours</h4>
     <h4>Passions</h4>
