@@ -1,19 +1,14 @@
-# portfolio-vuetify
+# vuejs portfolio
 
-## Project setup
-```
-npm install
-```
+My vuejs portfolio, helped by **vuetify** but mostly with my hands and my imagination.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# to know
 
-### Compiles and minifies for production
-```
-npm run build
-```
+I did my portfolio mostly in English because this is, for me, the most revelant and more inclusive than french.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+My portfolio is **responsive**.
+
+# in the future of my portfolio
+
+- French version.
+- Night / Day mode.
