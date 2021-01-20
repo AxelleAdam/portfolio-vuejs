@@ -13,10 +13,8 @@
     </v-app-bar>
 
     <v-main>
-      <v-container fluid>
-        <!-- If using vue-router -->
-        <router-view></router-view>
-      </v-container>
+      <!-- If using vue-router -->
+      <router-view></router-view>
     </v-main>
 
     <v-footer dark padless>
@@ -24,7 +22,7 @@
         flat
         tile
         class="text-center"
-        style="background:#c2bfc0;color:#0c0c0c"
+        style="background:#fdfdfd;color:#0c0c0c"
       >
         <v-card-text> </v-card-text>
 
@@ -39,7 +37,7 @@
 
         <v-divider></v-divider>
 
-        <v-card-text class="white--text">
+        <v-card-text style="color:#dc143c">
           {{ new Date().getFullYear() }} — <strong>Axelle Adamkiewicz</strong>
         </v-card-text>
       </v-card>
@@ -57,7 +55,7 @@ body {
   font-family: open sans;
 }
 .navbar {
-  // background: linear-gradient(45deg, #93c087, rgb(218, 164, 209));
+  // background: linear-gradient(45deg, #dc143c, #dc143c, #9f59f3, #9f59f3);
   background: #c2bfc0;
   color: white;
   width: 100%;
@@ -66,14 +64,23 @@ body {
     width: 95%;
   }
   a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     padding: 1px;
     font-size: 100%;
-    font-family: "vt323", sans-serif;
+    font-family: "limelight", sans-serif;
     margin-right: 5%;
     text-align: center;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-image: -webkit-linear-gradient(
+      0deg,
+      #dc143c,
+      #dc143c,
+      #9f59f3,
+      #9f59f3
+    ) !important;
     a:hover {
       color: #fdfdfd !important;
     }
@@ -84,6 +91,6 @@ body {
   }
 }
 h2 {
-  font-family: Limelight;
+  font-family: limelight;
 }
 </style>
