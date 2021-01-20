@@ -3,7 +3,7 @@
     <v-app-bar app class="navbar" flat>
       <div class="justify-space-between d-flex align-center navbar2">
         <div class="bear"><v-img src="./store/bear.svg" /></div>
-        <router-link to="/">Home</router-link>
+        <router-link to="/" class="home">Home</router-link>
         <router-link to="/project">My projects</router-link>
         <router-link to="/about">About me</router-link>
         <router-link to="/contact">Contact me</router-link>
@@ -18,7 +18,12 @@
     </v-main>
 
     <v-footer dark padless>
-      <v-card flat tile class="brown lighten-1 white--text text-center">
+      <v-card
+        flat
+        tile
+        class="grey-1 black--text text-center"
+        style="background:#c2bfc0"
+      >
         <v-card-text> </v-card-text>
 
         <v-card-text class="white--text pt-0">
@@ -50,7 +55,8 @@ body {
   font-family: open sans;
 }
 .navbar {
-  background: linear-gradient(45deg, #93c087, rgb(218, 164, 209));
+  // background: linear-gradient(45deg, #93c087, rgb(218, 164, 209));
+  background: #c2bfc0;
   color: white;
   width: 100%;
 
@@ -58,12 +64,16 @@ body {
     width: 95%;
   }
   a {
-    color: #fdfdfd;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px;
-    font-size: 130%;
-    font-family: limelight;
+    padding: 1px;
+    font-size: 100%;
+    font-family: "vt323", sans-serif;
+    margin-right: 5%;
+    a:hover {
+      color: rgb(61, 61, 218);
+    }
   }
   .bear {
     width: 4vw;
