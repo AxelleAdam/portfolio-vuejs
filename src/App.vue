@@ -20,9 +20,8 @@
     <v-footer dark padless>
       <v-card
         flat
-        tile
-        class="text-center"
-        style="background:#fdfdfd;color:#0c0c0c"
+        class="text-center footer"
+        style="background:#fdfdfd;color:#0c0c0c;"
       >
         <v-card-text> </v-card-text>
 
@@ -56,15 +55,14 @@ body {
 }
 .navbar {
   // background: linear-gradient(45deg, #dc143c, #dc143c, #9f59f3, #9f59f3);
-  background: #c2bfc0;
-  color: white;
+  background: $light-background;
+  color: $title;
   width: 100%;
 
   .navbar2 {
     width: 95%;
   }
   a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     padding: 1px;
@@ -81,9 +79,6 @@ body {
       #9f59f3,
       #9f59f3
     ) !important;
-    a:hover {
-      color: #fdfdfd !important;
-    }
   }
   .bear {
     width: 4vw;
