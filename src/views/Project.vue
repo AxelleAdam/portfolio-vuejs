@@ -1,55 +1,76 @@
 <template>
-  <div class="project">
-    <v-card class="mx-auto" max-width="400">
-      <v-img
-        class="white--text align-end"
-        height="200px"
-        src="../assets/bet2invest.png"
-      >
-        <v-card-title>Bet2Invest</v-card-title>
-      </v-img>
+  <div class="project row d-flex" style="margin-top:10%;">
+    <div class="col-4">
+      <v-card class="mx-auto" max-width="450">
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="../assets/bet2invest.png"
+        >
+          <v-card-title>Bet2Invest</v-card-title>
+        </v-img>
 
-      <v-card-subtitle class="pb-0">
-        Wild Code School
-      </v-card-subtitle>
+        <v-card-subtitle class="pb-0">
+          Paris sportifs en ligne
+        </v-card-subtitle>
 
-      <v-card-text class="text--primary">
-        <div>Paris sportifs en ligne</div>
+        <v-card-text class="text--primary">
+          <div>JavaScript, React.js, Node.js, Express.js, PassportJWT</div>
+        </v-card-text>
 
-        <div>JavaScript, React.js, Node.js, Express.js, PassportJWT</div>
-      </v-card-text>
+        <v-card-actions>
+          <v-btn color="orange" text @click="wild()">
+            Explore
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </div>
+    <div class="col-4">
+      <v-card class="mx-auto" max-width="450">
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="../assets/leihia_accueil.png"
+        >
+          <v-card-title class="title">Leihia</v-card-title>
+        </v-img>
+        <v-card-subtitle class="pb-0"
+          >Aide de retour à l'emploi</v-card-subtitle
+        >
+        <v-card-text class="text--primary">
+          <div>JavaScript, Vue.js, Quasar, Node.js</div>
+        </v-card-text>
 
-      <v-card-actions>
-        <v-btn color="orange" text @click="wild()">
-          Explore
-        </v-btn>
-      </v-card-actions>
-    </v-card>
-    <v-card class="mx-auto" max-width="400">
-      <v-img
-        class="white--text align-end"
-        height="200px"
-        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-      >
-        <v-card-title>Top 10 Australian beaches</v-card-title>
-      </v-img>
+        <v-card-actions>
+          <v-btn color="orange" text @click="leihia()">
+            Explore
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </div>
+    <div class="col-4">
+      <v-card class="mx-auto" max-width="450">
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="../assets/dmc.png"
+        >
+          <v-card-title class="title">Designs</v-card-title>
+        </v-img>
+        <v-card-subtitle class="pb-0"
+          >Designs pour forum à but immersif</v-card-subtitle
+        >
+        <v-card-text class="text--primary">
+          <div>Photoshop CS6</div>
+        </v-card-text>
 
-      <v-card-subtitle class="pb-0">
-        Number 10
-      </v-card-subtitle>
-
-      <v-card-text class="text--primary">
-        <div>Whitehaven Beach</div>
-
-        <div>Whitsunday Island, Whitsunday Islands</div>
-      </v-card-text>
-
-      <v-card-actions>
-        <v-btn color="orange" text @click="leihia()">
-          Explore
-        </v-btn>
-      </v-card-actions>
-    </v-card>
+        <v-card-actions>
+          <v-btn color="orange" text @click="design()">
+            Explore
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </div>
   </div>
 </template>
 <script>
@@ -64,6 +85,15 @@ export default {
     wild() {
       this.$router.push({ path: "/wild" });
     },
+    design() {
+      this.$router.push({ path: "/design" });
+    },
   },
 };
 </script>
+<style scoped>
+.title {
+  font-family: "limelight", serif;
+  text-shadow: 0 1px 0 #0c0c0c;
+}
+</style>

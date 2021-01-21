@@ -34,6 +34,11 @@ const routes = [
     path: '/leihia',
     name: 'Leihia',
     component: () => import(/* webpackChunkName: "about" */ '../components/Leihia.vue')
+  },
+  {
+    path:'/design',
+    name:'Design',
+    component: () => import(/* webpackChunkName: "about" */ '../components/Design.vue')
   }
 ]
 
