@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1>This is a contact page</h1>
-    <v-card class="mx-auto" max-width="344">
+    <v-card class="mx-auto" max-width="344" flat>
       <v-card-text>
         <p class="display-1 text--primary">
           mail or discord
@@ -13,7 +13,7 @@
         </div>
       </v-card-text>
     </v-card>
-    <v-card class="mx-auto" max-width="344">
+    <v-card class="mx-auto" max-width="344" flat>
       <v-card-text>
         <p class="display-1 text--primary">
           I also do some livecoding and stream on Twitch

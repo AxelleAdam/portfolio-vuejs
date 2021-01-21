@@ -4,7 +4,7 @@
       <v-img
         class="white--text align-end"
         height="200px"
-        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+        src="../assets/bet2invest.png"
       >
         <v-card-title>Bet2Invest</v-card-title>
       </v-img>
@@ -59,10 +59,10 @@ export default {
   name: "project",
   methods: {
     leihia() {
-      window.open({ path: "/leihia" });
+      this.$router.push({ path: "/leihia" });
     },
     wild() {
-      window.open({ path: "/wild" });
+      this.$router.push({ path: "/wild" });
     },
   },
 };

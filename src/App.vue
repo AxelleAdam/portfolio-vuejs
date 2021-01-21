@@ -2,8 +2,8 @@
   <v-app>
     <v-app-bar app class="navbar" flat>
       <div class="justify-space-between d-flex align-center navbar2">
-        <div class="bear hide-mobile desktop-only">
-          <v-img src="./store/bear.svg" />
+        <div class="bear .d-lg-none .d-xl-flex">
+          <v-img src="./assets/bear.svg" />
         </div>
         <router-link to="/" class="home">Home</router-link>
         <router-link to="/project">My projects</router-link>
