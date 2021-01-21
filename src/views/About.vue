@@ -7,7 +7,12 @@
         flat
       >
         <template>
-          <v-tabs v-model="tabs" centered>
+          <v-tabs
+            v-model="tabs"
+            centered
+            prev-icon="mdi-arrow-left-bold-box-outline"
+            next-icon="mdi-arrow-right-bold-box-outline"
+          >
             <v-tab> who am i </v-tab>
             <v-tab>Parcours</v-tab>
             <v-tab>Languages</v-tab>
@@ -44,6 +49,25 @@
             </v-card-title>
             <v-card-text>
               <h2>Studies</h2>
+              <h3>Montebello International High School - 2010/2013</h3>
+              <h4>Litterature diploma.</h4>
+              <p>I learnt Polish and Japanese and was in English Euro.</p>
+              <h3>IFSA - 2013/2016</h3>
+              <h4>
+                Veterinary assistant, canine educator and wild animals
+                specialisation
+              </h4>
+              <p>
+                I learnt about the Wild and canine education and had my diploma
+                with a Good appreciation (16,1/20). My favourite species to
+                learn about was reptiles.
+              </p>
+              <h3>Wild Code School - 2019</h3>
+              <h4>Fullstack web and mobile development</h4>
+              <p>
+                I learnt JavaScript, MySQL and Python. I worked with React.js,
+                Node.js, Express.js, MySQL, PasswortJWT, Bootstrap, Reactstrap.
+              </p>
               <h2>Works</h2>
             </v-card-text>
           </v-card>
@@ -106,10 +130,18 @@
         </v-tab-item>
         <v-tab-item>
           <v-card flat>
-            <v-card-title class="headline"> Disponibilities </v-card-title>
             <v-card-text>
+              <h2>When ?</h2>
               <p>
-                uc.
+                I'm available now.
+              </p>
+              <h2>Where ?</h2>
+              <p>In Lille - France or Montreal - Canada.</p>
+              <h2>What ?</h2>
+              <p>
+                I'm searching for a job as front-end web developer, with Vue.js
+                or React.js, ideally. But I never refuse to learn new things, I
+                love to learn. I'm also searching for a long term work.
               </p>
             </v-card-text>
           </v-card>

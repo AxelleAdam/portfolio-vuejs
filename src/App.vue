@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 1px;
-    font-size: 100%;
+    font-size: 2.5vw;
     font-family: "limelight", sans-serif;
     margin-right: 5%;
     text-align: center;
