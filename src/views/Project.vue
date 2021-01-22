@@ -96,7 +96,7 @@ export default {
 }
 .fullProject {
   margin: 0;
-  height: 85vh;
+  height: 100%;
   background: $gradient;
 }
 </style>

@@ -21,9 +21,8 @@
 
         <v-tabs-items v-model="tabs">
           <v-tab-item>
-            <v-card flat>
+            <v-card flat style="background:#fdfdfd7e">
               <v-card-text>
-                <h1>Who am i ?</h1>
                 <p>Hello there !</p>
                 <p>
                   I'm Axelle Adamkiewicz and i'm a web developer. I am
@@ -41,9 +40,6 @@
           </v-tab-item>
           <v-tab-item>
             <v-card flat>
-              <v-card-title class="headline">
-                Parcours
-              </v-card-title>
               <v-card-text>
                 <h2>Studies</h2>
                 <h3>Montebello International High School - 2010/2013</h3>
@@ -67,12 +63,45 @@
                   Reactstrap.
                 </p>
                 <h2>Works</h2>
+                <h3>Web developer fullstack - 2019</h3>
+                <h4>Bet2Invest</h4>
+                <p>
+                  I worked mostly in front-end with React.js (and reactstrap),
+                  but also Node.js.
+                </p>
+                <h3>Digital animator - 2018/2019</h3>
+                <h4>
+                  Pôle Emploi
+                </h4>
+                <p>
+                  I was initially there to help people to find a work with Pôle
+                  Emploi material but after two weeks I've decided to organize
+                  animations to help people in needs to learn how to use a
+                  computer and internet, i also made animations to help them
+                  doing their CV.
+                </p>
+                <h3>Veterinary assistant - 2016</h3>
+                <h4>Clinique du coeur joyeux</h4>
+                <p>
+                  I worked as veterinary assistant, i helped in surgery. I also
+                  confirmed my canine trainer diploma.
+                </p>
+                <h3>Administrative Officer - 2013/2014</h3>
+                <h4>
+                  <b>Humanis</b> - provident insurance | litigation then annual
+                  salary declarations
+                </h4>
+                <p>
+                  I worked at Humanis with two hats, in litigation and annual
+                  salary declarations. That was very helpful for me, to learn
+                  how to talk on the phone correctly but also to learn how to be
+                  organize and quick in my work.
+                </p>
               </v-card-text>
             </v-card>
           </v-tab-item>
           <v-tab-item>
             <v-card flat>
-              <v-card-title class="headline"> Languages </v-card-title>
               <v-card-text>
                 <h3>French</h3>
                 <p><i>fun fact</i></p>
@@ -102,28 +131,53 @@
                 </p>
                 <h3>Japanese</h3>
                 <p>
-                  My third languages when i went to High School, I was very
+                  My third languages when i was in High School, I was very
                   curious and I am very fascinated by Japan and history.
                 </p>
               </v-card-text>
             </v-card>
           </v-tab-item>
-          <v-tab-item>
+          <v-tab-item style="background:#fdfdfd7e">
             <v-card flat>
-              <h1>Passions</h1>
               <v-card-text>
-                <h5>Travels</h5>
+                <h3>Travels</h3>
                 <p>
                   If i had to present my biggest passion, it's probably
-                  traveling.
+                  traveling. My faves are probably Germany and Wales.
                 </p>
-                <h5>Video games</h5>
+                <h3>Video games</h3>
                 <p>
                   My father transmitted me his passion for video games and
-                  offers me at a very young age my first console.
+                  offers me at a very young age my first console. My favourite
+                  game of the moment is Witcher 3, i'm fond of Fable II and III
+                  and Batman Arkhams (especially Asylum who is my fav) games.
                 </p>
-                <h5>History</h5>
-                <p>I'm a big fan of history, mainly WWII.</p>
+                <h3>History</h3>
+                <p>
+                  I'm a big fan of history, mainly WWII. I'm fascinated by 40's.
+                </p>
+                <h3>Music</h3>
+                <p>
+                  Jazz, Glam, Rock'n'Roll, Heavy Metal, Pop, i love a lot of
+                  things. My favourite bands are Queen, Aerosmith, Mötley Crüe,
+                  Little Big, Paramore, Black Sabbath, Frog Lep, Postmodern
+                  Jukebox, Tenacious D, but i also love David Bowie, Alice
+                  Cooper, Lady Gaga, Frank Sinatra, Prince, Michael Jackson,
+                  Ella Fitzgerald, Louis Armstrong.
+                </p>
+                <h3>Writing</h3>
+                <p>
+                  I'm full of imagination and i love to write, to imagine long
+                  or short stories. I'm not into poem but i love to write
+                  novels, my favourite thing to write is history, i love to
+                  imagine random people and how they lived in certain era.
+                </p>
+                <h3>Last but not the least : coding !</h3>
+                <p>
+                  I'm coding on my own since 2013, i had no choice for my
+                  writing passion if i wanted a beautiful space for me and
+                  readers.
+                </p>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -169,8 +223,17 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-h1 {
+h3,
+h2 {
   font-family: limelight;
+}
+h2 {
+  color: #006466;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 50%;
+  margin: auto;
 }
 .toolbar {
   background: $gradient;
