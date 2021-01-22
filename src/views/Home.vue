@@ -2,7 +2,7 @@
   <div class="home">
     <!-- <div class="homeText"></div> -->
     <v-container>
-      <div class="homeText">
+      <v-card class="hello" style="">
         <h1>Hello stranger ! Welcome here !</h1>
 
         <br />
@@ -12,7 +12,7 @@
           portfolio.
         </p>
         <p>Everything here is made with Vue.js and my hands.</p>
-      </div>
+      </v-card>
     </v-container>
   </div>
 </template>
@@ -29,10 +29,9 @@ export default {
   position: absolute;
   width: 100vw;
   height: 100%;
-  background: linear-gradient(45deg, #dc143c, #dc143c, #9f59f3, #9f59f3);
-  overflow: hidden;
+  background: $gradient;
 }
-.homeText {
+.hello {
   text-align: center;
   margin: auto;
   margin-top: 10%;
@@ -47,15 +46,11 @@ h1 {
   font-family: "limelight", sans-serif;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
-  background-image: -webkit-linear-gradient(
-    120deg,
-    #dc143c,
-    #9f59f3
-  ) !important;
+  background-image: ($gradient_reverse) !important;
 }
 .name {
-  color: #fdfdfdd5;
-  text-shadow: 1px 1.5px 0 #dc143c;
+  color: #e2e0e6;
+  text-shadow: 1px 1.5px 0 #4d194d;
   font-family: poppins;
 }
 </style>
