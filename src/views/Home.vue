@@ -2,7 +2,7 @@
   <div class="home">
     <!-- <div class="homeText"></div> -->
     <v-container>
-      <v-card class="hello" style="">
+      <v-card class="hello" style="background:#fdfdfd7e">
         <h1>Hello stranger ! Welcome here !</h1>
 
         <br />

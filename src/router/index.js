@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
   },
   {
     path: '/about',
@@ -44,7 +44,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: 'portfolio-vuejs-2021',
   routes
 })
 
