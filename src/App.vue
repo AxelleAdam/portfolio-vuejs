@@ -46,7 +46,7 @@ body {
     text-transform: uppercase;
     padding: 1px;
     font-size: 2.5vw;
-    font-family: "limelight", sans-serif;
+    font-family: $write;
     margin-right: 5%;
     text-align: center;
     -webkit-background-clip: text !important;
@@ -59,6 +59,6 @@ body {
   }
 }
 h2 {
-  font-family: limelight;
+  font-family: $write;
 }
 </style>

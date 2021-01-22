@@ -1,7 +1,11 @@
 <template>
   <div class="fullProject">
     <div class="project row d-flex">
-      <v-card class="mx-auto" max-width="450" style="margin-top:10%;">
+      <v-card
+        class="mx-auto"
+        max-width="450"
+        style="margin-top:10%;background:#fdfdfd7e;"
+      >
         <v-img
           class="white--text align-end"
           height="200px"
@@ -11,7 +15,7 @@
         </v-img>
 
         <v-card-subtitle class="pb-0">
-          Paris sportifs en ligne
+          online sports betting
         </v-card-subtitle>
 
         <v-card-text class="text--primary">
@@ -19,13 +23,17 @@
         </v-card-text>
 
         <v-card-actions>
-          <v-btn color="orange" text @click="wild()">
-            Explore
+          <v-btn text @click="wild()" class="button">
+            Curious ?
           </v-btn>
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" max-width="450" style="margin-top:10%;">
+      <v-card
+        class="mx-auto"
+        max-width="450"
+        style="margin-top:10%;background:#fdfdfd7e;"
+      >
         <v-img
           class="white--text align-end"
           height="200px"
@@ -34,20 +42,24 @@
           <v-card-title class="title">Leihia</v-card-title>
         </v-img>
         <v-card-subtitle class="pb-0"
-          >Aide de retour à l'emploi</v-card-subtitle
-        >
+          >help to get back to work
+        </v-card-subtitle>
         <v-card-text class="text--primary">
           <div>JavaScript, Vue.js, Quasar, Node.js</div>
         </v-card-text>
 
         <v-card-actions>
-          <v-btn color="orange" text @click="leihia()">
-            Explore
+          <v-btn class="button" text @click="leihia()">
+            Much wow !
           </v-btn>
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" max-width="450" style="margin-top:10%;">
+      <v-card
+        class="mx-auto"
+        max-width="450"
+        style="margin-top:10%;background:#fdfdfd7e;"
+      >
         <v-img
           class="white--text align-end"
           height="200px"
@@ -55,16 +67,14 @@
         >
           <v-card-title class="title">Designs</v-card-title>
         </v-img>
-        <v-card-subtitle class="pb-0"
-          >Designs pour forum à but immersif</v-card-subtitle
-        >
+        <v-card-subtitle class="pb-0">Immersive designs</v-card-subtitle>
         <v-card-text class="text--primary">
           <div>Photoshop CS6</div>
         </v-card-text>
 
         <v-card-actions>
-          <v-btn color="orange" text @click="design()">
-            Explore
+          <v-btn text @click="design()" class="button">
+            Click there !
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -91,12 +101,23 @@ export default {
 </script>
 <style scoped lang="scss">
 .title {
-  font-family: "limelight", serif;
+  font-family: $write;
   text-shadow: 0 1px 0 $shadow;
 }
 .fullProject {
   margin: 0;
-  height: 100%;
+  height: 101.6%;
   background: $gradient;
+}
+.v-btn {
+  font-family: $write;
+  background: $gradient;
+  color: $title;
+  transition: 1s all ease;
+}
+
+.v-btn:hover {
+  background: $gradient_reverse;
+  letter-spacing: 10px;
 }
 </style>

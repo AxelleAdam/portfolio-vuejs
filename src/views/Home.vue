@@ -43,7 +43,7 @@ export default {
   background: #fdfdfd7e;
 }
 h1 {
-  font-family: "limelight", sans-serif;
+  font-family: $write;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-image: ($gradient_reverse) !important;

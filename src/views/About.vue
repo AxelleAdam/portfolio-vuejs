@@ -225,7 +225,7 @@ export default {
 <style lang="scss" scoped>
 h3,
 h2 {
-  font-family: limelight;
+  font-family: $write;
 }
 h2 {
   color: #006466;
@@ -240,7 +240,7 @@ h2 {
 }
 .aboutFull {
   background: $gradient;
-  height: 85vh;
+  height: 91.5vh;
 }
 
 .point {
